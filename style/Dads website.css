@@ -1,0 +1,125 @@
+
+body { background: rgba(221, 217, 232, 0.53);
+    background-image: url("girl%20with%20blonde%20hair.jpg");
+        background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+        }
+
+
+/* ----------------------------
+
+HEADER
+
+----------------------------*/
+h1 { text-align: center;
+     color: #005cdd;
+    font-size: 96px;
+    font-family: "Century Gothic", sans-serif;
+    height: 10px;
+    padding-bottom: 10%;    
+    }
+
+/* ----------------------------
+MAIN TEXT
+------------------------------*/
+
+div.constructiontext {
+    text-align: center;
+    font-family: "Edwardian Script ITC", sans-serif; 
+    font-size: 80px;
+    color: #ffffff;
+    font-style: bold; 
+    opacity: 100%;
+    outline-color: black;
+    
+}
+
+/*-------------------------
+FORM
+-------------------------*/
+
+div.form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 200%;
+    font-family: "Century Gothic", sans-serif;
+    color: #fffcff;
+    padding-bottom: 20px;
+    display: block; 
+        
+}
+
+.name {
+    text-align: center;
+    align-content: center;   
+    margin-left: auto;
+    margin-right: 5px;
+    
+}
+
+
+form input [type="text"]{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+input[type=submit]:hover {
+  background-color: #db29db;
+}
+
+.contact details {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 5px;
+    width: 25%;
+    
+}
+
+/*---------------------------
+BUTTON
+-----------------------------*/
+
+.button { margin-left: auto;
+        margin-right: auto;
+        border-radius: 4px;
+    }
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*------------------------------
+FOOTER
+*/-------------------------
+
+div.footer {
+   font-family: "Edwardian Script ITC", sans-serif;
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+    text-align: center; }
+
+
+
+
+
+
+
+
+
+
+
